@@ -1,0 +1,209 @@
+
+.P_layout{
+    width: 100vw;
+    height: 10vh;
+    background-color: antiquewhite;
+    border: 0;
+}
+.banner1{
+    position: relative;
+    width: 100vw;
+    height: 90vh;
+    background-image: url("https://s2.loli.net/2023/01/08/m9pdDbYlWg4keJc.png");
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    border: 0;
+}
+.P_left{
+    width: 50vw;
+    height: 90vh;
+    background-color: #3894FF;
+    opacity: 0.5;
+}
+.text{
+    position: absolute;
+    top: 100px;
+    width: 50vw;
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: rgba(255, 255, 255, 1);
+    text-align: center;
+    font-family: SourceHanSansSC-regular;
+    z-index: 1;
+}
+.t1{
+    font-size: 72px;
+}
+.t2{
+    margin-top: 50px;
+    font-size: 36px;
+}
+.banner2{
+    margin-top: 0;
+    width: 100vw;
+    height: 80vh;
+}
+
+.banner2 .title{
+    margin-top: 40px;
+    margin-bottom: 20px;
+    color: rgba(56, 148, 255, 1);
+    font-size: 48px;
+    text-align: center;
+    font-weight: 400;
+    font-family: SourceHanSansSC-regular;
+}
+
+.intro{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.about{
+    padding-left: 8vw;
+    width: 50vw;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+}
+.about h1{
+    color: rgba(50, 121, 205, 1);
+    font-size: 48px;
+    text-align: left;
+    font-family: SourceHanSansSC-regular;
+}
+.about h2{
+    color: rgba(50, 121, 205, 1);
+    font-size: 48px;
+    text-align: left;
+    font-family: SourceHanSansSC-regular;
+    font-weight: 200;
+}
+.about p{
+    width: 70%;
+    color: rgba(16, 16, 16, 1);
+    font-size: 18px;
+    text-align: justify;
+    font-family: SourceHanSansSC-regular;
+
+}
+.about button{
+    width: 160px;
+    height: 50px;
+    line-height: 26px;
+    border-radius: 5px;
+    font-size: 18px;
+    text-align: center;
+    font-family: Roboto;
+}
+.about .btn{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    gap: 10vw;
+}
+.about .button1{
+    background-color: rgba(50, 121, 205, 1);
+    color: white;
+}
+.button1:hover{
+    background-color: #67aeff;
+}
+.button2:hover{
+    background-color: #a4ceff;
+}
+.about .button2{
+    background-color: rgba(255, 255, 255, 1);
+    color: rgba(56, 148, 255, 1);
+    border: 1px solid rgba(56, 148, 255, 1);
+}
+.logo_text{
+    width: 50vw;
+    height: 100%;
+}
+.logo_text img{
+    width: 100%;
+    height: 100%;
+}
+
+.banner3{
+    width: 100vw;
+    height: 240vh;
+    background-image: url("https://s2.loli.net/2023/01/09/BFweROt81vfY6qm.jpg");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+.banner3 .h1{
+    width: auto;
+    height: 60px;
+    color: rgba(96, 158, 232, 1);
+    font-size: 48px;
+    line-height: 60px;
+    text-align: center;
+    font-family: SourceHanSansSC-medium;
+}
+.banner3 .E_title{
+    width: auto;
+    height: 50px;
+    margin-bottom: 20px;
+    opacity: 0.45;
+    color: rgba(50, 121, 205, 1);
+    font-size: 40px;
+    text-align: center;
+    font-weight: 400;
+    font-family: SourceHanSansSC-regular;
+}
+
+.banner3 .book{
+    width: 100vw;
+    height: 70vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 20vw;
+}
+
+.banner3 img{
+    width: 40vw;
+    height: 70%;
+    display: flex;
+}
+
+.banner3 .learn_more{
+    display: flex;
+    width: 40vw;
+    height: 100%;
+    flex-direction: column;
+    padding: 30px 0 30px 0;
+    text-align: center;
+}
+.banner3 .learn_more .bname{
+    color: rgba(16, 16, 16, 1);
+    font-size: 28px;
+    text-align: left;
+    font-family: SourceHanSansSC-regular;
+    margin-bottom: 40px;
+}
+.banner3 .learn_more .desc{
+    color: rgba(16, 16, 16, 1);
+    font-size: 18px;
+    text-align: left;
+    font-family: SourceHanSansSC-regular;
+    margin-bottom: 80px;
+}
+.learn_more button{
+    width: 160px;
+    height: 50px;
+    line-height: 26px;
+    border-radius: 5px;
+    font-size: 18px;
+    text-align: center;
+    font-family: Roboto;
+    border: 1px solid rgba(56, 148, 255, 1);
+    background-color: rgba(255, 255, 255, 1);
+    color: rgba(56, 148, 255, 1);
+}

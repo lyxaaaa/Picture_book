@@ -1,0 +1,224 @@
+.mall-container{
+    width: 100%;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.mall-one{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+    height: 350px;
+}
+.mallone-left{
+    width: 20%;
+    height: 350px;
+    background-color: #73b3ff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.mall-onepic{
+    width: 30px;
+    height: 30px;
+}
+.mall-img{
+    width: 100%;
+    height: 100%;
+}
+.mall-theword{
+    font-size: 18px;
+    color: white;
+    margin-left: 10px;
+}
+.mallone-top{
+    display: flex;
+    flex-direction: row;
+    height: 20%;
+    align-items: center;
+}
+.mallone-body{
+    display: flex;
+    flex-direction: column;
+    height: 80%;
+    width: 300px;
+}
+.mallone-item{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    color: white;
+    height: 33%;
+    white-space: nowrap;
+}
+.mall-oneword{
+    font-size: 18px;
+    color: white;
+}
+.mall-twopic{
+    width: 22px;
+    height: 22px;
+}
+.mallone-right{
+    width: 80%;
+    height: 350px;
+    background-image: url('https://s2.loli.net/2023/01/09/ZUylY85b9kCgcoh.jpg');
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: gray;
+}
+.mallone-headone{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 50px;
+    margin-left: 100px;
+}
+.headone-search{
+    border: none;
+    outline: none;
+    width: 550px;
+    height: 40px;
+    color: gray;
+    font-size: 16px;
+    background-color: white;
+}
+.mall-threepic{
+    width: 40px;
+    height: 40px;
+}
+.mallone-detail{
+    display: flex;
+    flex-direction: row;
+    width: 600px;
+    height: 100px;
+    justify-content: space-around;
+    align-items: center;
+    color: rgba(247, 243, 243, 1);
+    font-size: 24px;
+    text-align: left;
+    font-family: SourceHanSansSC-regular;
+    margin-left: 110px;
+    margin-top: 20px;
+}
+.malldetail{
+    text-align: left;
+}
+.malldetail-one{
+    font-size: 14px;
+}
+.malldetail-two{
+    font-size: 24px;
+    margin-top: 10px;
+    font-weight: bold;
+}
+.mall-two{
+    width: 100%;
+    background-color: white;
+}
+.malltwo-top{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.mall-huiben{
+    width: 670px;
+    height: 250px;
+    box-shadow: 0px 2px 6px 0px rgba(0, 0, 0, 0.4);
+    font-family: Roboto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+.mallhuiben-left{
+    width: 220px;
+    height: 200px;
+}
+.mallhuiben-center{
+    display: flex;
+    flex-direction: column;
+}
+.huibencenter-one{
+    color: rgba(16, 16, 16, 1);
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    font-family: SourceHanSansSC-bold;
+    white-space: nowrap;
+}
+.mallhuiben-right{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+}
+.mallright-top{
+    color: rgba(40, 144, 244, 1);
+    font-weight: bold;
+    margin-top: 10px;
+}
+.huibencenter-two{
+    width: 100px;
+    height: 25px;
+}
+.malltwo-bottom{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+}
+.malltwo-logo{
+    width: 600px;
+    height: 250px;
+}
+.mall-three{
+    width: 100%;
+    height: 250px;
+    background-color: #2d2d2d;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 15px;
+}
+.four-left{
+    font-size: larger;
+    font-family: SimSun;
+    font-weight: bold;
+    font-size: 30px;
+    color: white;
+    margin-right: 500px;
+    margin-left: 180px;
+}
+.four-right{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.four-box{
+    width: 200px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.four-size{
+    width: 150px;
+    height: 150px;
+}
+.four-name{
+    color: white;
+    font-size: 14px;
+    margin-top: 9px;
+}

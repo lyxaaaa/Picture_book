@@ -1,0 +1,227 @@
+.com-container{
+    width: 100vw;
+    margin: 0;
+}
+.comcontain-top{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+.com-left{
+    width: 70%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 20px;
+    row-gap: 35px;
+    padding: 10px;
+    box-sizing: border-box;
+    margin-left: 20px;
+}
+.comleft-item{
+    display: flex;
+    flex-direction: column;
+}
+.com-itemone{
+    width: 100%;
+    height: 160px;
+    background-color: #e8e8e8;
+}
+.com-itemtwo{
+    color: rgba(16, 16, 16, 1);
+    font-size: 14px;
+    text-align: left;
+    font-family: SourceHanSansSC-bold;
+    font-weight: bold;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.com-img{
+    width: 100%;
+    height: 100%;
+}
+.com-itemthree{
+    width: 100%;
+    height: 30px;
+    padding: 15px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+.itemthree-user{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.comuser-size{
+    width: 30px;
+    height: 25px;
+}
+.comuser-name{
+    color: rgba(82, 143, 255, 1);
+    font-size: 14px;
+    margin-left: 10px;
+    white-space: nowrap;
+}
+.itemthree-num{
+    color: rgba(102, 105, 112, 1);
+    font-size: 14px;
+    margin-left: 60px;
+}
+.com-right{
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    padding: 10px 20px 0px;
+}
+.comrig-one{
+    height: 400px;
+}
+.comrig-two{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    box-sizing: border-box;
+}
+.comrig-twotitle{
+    color: rgba(16, 16, 16, 1);
+    font-size: 20px;
+    text-align: left;
+    font-family: SourceHanSansSC-regular;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+.comrigtwo-itemtitle{
+    color: rgba(16, 16, 16, 1);
+    font-size: 14px;
+    text-align: left;
+    font-family: SourceHanSansSC-regular;
+    margin-top: 5px;
+    font-weight: bold;
+}
+.comrig-twoelse{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 15px;
+    row-gap: 8px;
+}
+.comrigtwo-itemsize{
+    width: 110px;
+    height: 80px;
+    background-color: #e8e8e8;
+}
+.comrig-three{
+    margin-top: 20px;
+    padding: 10px;
+    box-sizing: border-box;
+}
+.comrigthree-title{
+    color: rgba(16, 16, 16, 1);
+    font-size: 20px;
+    text-align: left;
+    font-family: SourceHanSansSC-regular;
+    font-weight: bold;
+}
+li{
+    list-style: none;
+}
+.comrigone-box{
+    position: relative;
+    width: 290px;
+    height: 390px;
+   /* 居中 */
+    top: -60px;
+    left: 40%;
+    transform: translate(-50%,10%);
+    /* overflow: hidden; */
+}
+.comrigbox-imgs{
+    position: absolute;
+    width: 300px;
+    height: 400px;
+    top: 0;
+    left: 50%;
+    transform: translate(-50%,0%);
+}
+.comrigbox-imgs li{
+    position: absolute;
+    width: 300px;
+    transition: 0.5s;
+}
+.comrigbox-imgs .one {
+    width: 300px;
+    height: 400px;
+    z-index: 1;
+}
+.comrigbox-imgs .two {
+    width: 300px;
+    height: 400px;
+    z-index: 2;
+}
+.comrigbox-imgs .three {
+    width: 300px;
+    height: 400px;
+    z-index: 1;
+}
+.comrigbox-list{
+    position: absolute;
+    bottom: -25px;
+    left: 25%;
+    z-index: 777;
+}
+.comrigbox-list li{
+    float: left;
+    width: 7px;
+    height: 7px;
+    background-color: rgb(230, 230, 230);
+    border-radius: 50%;
+    margin: 0 6px;
+    cursor: pointer; 
+}
+/* 小圆圈改变后的样式 */
+.comrigbox-list .change {
+    background-color: rgb(236, 65, 65);
+}
+.comcontain-bot{
+    width: 100%;
+    height: 250px;
+    background-color: #2d2d2d;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 10px;
+}
+.four-left{
+    font-size: larger;
+    font-family: SimSun;
+    font-weight: bold;
+    font-size: 30px;
+    color: white;
+    margin-right: 500px;
+    margin-left: 180px;
+}
+.four-right{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.four-box{
+    width: 200px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.four-size{
+    width: 150px;
+    height: 150px;
+}
+.four-name{
+    color: white;
+    font-size: 14px;
+    margin-top: 9px;
+}

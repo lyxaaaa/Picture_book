@@ -1,0 +1,192 @@
+body{
+    place-items: baseline;
+}
+.M_Main{
+    width: 90vw;
+    height: auto;
+    padding-left: 10vw;
+}
+
+.M_Main .infor{
+    width: 80vw;
+    height: 20vh;
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-bottom: 1px solid #cacaca;
+}
+
+.infor .avatar img{
+    width: 80px;
+    height: 80px;
+    border-radius: 50% ;
+    margin-right: 50px;
+}
+.infor .msg{
+    width: 80vw;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    color: #4D9CDD;
+    font-size: 16px;
+}
+.msg .txt{
+
+    width: 280px;
+    height: 40px;
+    line-height: 40px;
+    vertical-align:middle;
+}
+.inline{
+    display:inline-flex;
+}
+.infor .msg p{
+    color: #676767;
+    font-size: 16px;
+    width: 100px;
+    height: 40px;
+    line-height: 40px;
+    margin: 0;
+}
+
+.msg .edit{
+    width: 50px;
+    height: 25px;
+    font-size: 10px;
+    color: #9b9b9b;
+    border: 1px solid #9b9b9b;
+    line-height: 10px;
+    text-align: center;
+    vertical-align: middle;
+    border-radius: 5px;
+}
+
+
+.books{
+    width: 80vw;
+    height: auto;
+}
+
+.books .divide{
+    display: inline-flex;
+    height: 35px;
+    margin-bottom: 40px;
+    width: 80vw;
+}
+
+.divide .fenlei{
+    border: 1px solid #9b9b9b;
+    width: 120px;
+    height: 100%;
+    color:#908f8f ;
+    text-align: center;
+    line-height: 35px;
+    font-size: 20px;
+    border-radius: 2px;
+}
+.divide .active{
+    color: white;
+    background-color: #4D9CDD;
+}
+.divide .filter{
+    width: 60px;
+    height: 30px;
+    display: inline-flex;
+}
+
+.divide img{
+    width: 100%;
+    height: 100%;
+}
+.divide .name{
+    background-color:antiquewhite;
+    display: inline-flex;
+    width: 80px;
+    height: 30px;
+}
+.divide .time{
+    display: inline-flex;
+    margin-top: 5px;
+    width: 80px;
+    height: 20px;
+}
+.divide span{
+    color: #59ACF1;
+    font-size: 13px;
+}
+.M_list{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 2vw;
+    margin-bottom: 60px;
+}
+.M_list .M_item{
+    width: 200px;
+    height: 220px;
+    border-radius: 5px;
+    box-shadow: 2px 0 5px 0 #9b9b9b;
+}
+.M_list .cover{
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    width: 200px;
+    height: 150px;
+}
+.brief-intro {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.brief-intro .title{
+    font-weight: 400;
+}
+.brief-intro .chapter{
+    color: #908f8f;
+    font-weight: 400;
+}
+.M_item .brief-intro button{
+    color: white;
+    background-color: #4D9CDD;
+    font-size: 6px;
+    border-radius: 2px;
+    width: 60px;
+    text-align: center;
+    line-height: 10px;
+    height: 20px;
+}
+
+.brief-intro .between{
+    display: flex;
+    justify-content: space-between;
+}
+
+.M_item .brief-intro .pass{
+    background-color: #d9c120;
+}
+
+.M_list .add{
+    background-color: #f7f7f7;
+    color: #4D9CDD;
+    font-size: 100px;
+    font-weight: 100;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    height: 140px;
+    padding-top: 80px;
+}
+
+.add .explain{
+    color: #1782d9;
+    font-size: 15px;
+    width: 40px;
+    height: 30px;
+    z-index: 1;
+    margin-left: 80px;
+    margin-top: 40px;
+    font-weight: 300;
+}
+

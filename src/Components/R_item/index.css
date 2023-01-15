@@ -1,0 +1,40 @@
+.recommend{
+    height: 160px;
+    display: inline-flex;
+    border-bottom: 1px solid rgb(213, 213, 213);
+}
+.recommend .r_cover{
+    width: 90px;
+    height: 120px;
+    margin-left: 10px;
+    margin-top: 20px;
+}
+
+.r_cover img{
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px 2px rgb(170, 169, 169);
+
+}
+.r_intro{
+    width: 230px;
+    height: 100%;
+    margin-left: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.r_title{
+    color: rgb(139, 138, 138);
+    font-size: 15px; 
+}
+.r_writer{
+    font-size: 10px;
+    color:  #4D9CDD;;
+}
+.r_time{
+    color: rgb(139, 138, 138);
+    font-size: 15px; 
+}
