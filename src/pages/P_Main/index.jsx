@@ -1,6 +1,6 @@
 import React from 'react'
 import { useState } from 'react'
-import P_layout from '../../components/P_layout'
+import P_layout from '../../Components/P_layout'
 import './index.css'
 
 export default function P_Main() {
