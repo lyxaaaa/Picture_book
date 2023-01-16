@@ -4,9 +4,9 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
+    "start": "vite",
     "dev": "vite",
     "build": "vite build",
-    "start": "http-server ./dist -p 3000",
     "preview": "vite preview"
   },
   "dependencies": {
